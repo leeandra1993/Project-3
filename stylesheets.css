@@ -1,0 +1,19 @@
+.B1, .B2 {
+	background-color: #f2e6ff;
+}
+
+.navbar {
+	background-color: #e6ccff;
+}
+
+.material-icons {
+	padding-left: 250px;
+}
+
+
+/*On screens that are 375px wide or less, make the columns stack on top of each other instead of next to each other*/
+@media screen and (max-width: 375px) {
+	.box1, .img1, .A1, .A2, .A3 {padding-top: 5%;
+	}
+
+	
